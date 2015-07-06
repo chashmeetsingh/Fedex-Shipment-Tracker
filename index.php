@@ -49,7 +49,7 @@
 
 				</form>
 
-				 <div id="success" class="alert alert-success"></div>
+		         <div id="success" class="alert alert-success"></div>
 		         <div id="fail" class="alert alert-danger">Could not find details</div>
 		         <div id="noNumber" class="alert alert-danger">enter a number </div>
 
@@ -66,11 +66,11 @@
 	});
 
 	 $("#findDetails").click(function(event){
-      event.preventDefault();
+        event.preventDefault();
 
-      if($("#provider").val()!="")
-      {
-        $.get("shipment.php?provider="+$("#provider").val()+"&num="+$("#num").val(), function( data ){
+        if($("#provider").val()!="")
+        {
+          $.get("shipment.php?provider="+$("#provider").val()+"&num="+$("#num").val(), function( data ){
           if(data == "")
           {
             $("#fail").fadeIn();
