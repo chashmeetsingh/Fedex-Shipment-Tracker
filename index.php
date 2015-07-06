@@ -36,6 +36,12 @@
 			  
 				  Select Provider: <select class="btn-default btn form-control mar15" name="provider" id="provider">
 					  <option value="fedex">FedEx</option>
+					  <option value="dhl">DHL</option>
+					  <option value="ups">UPS</option>
+					  <option value="bluedart">BLUE DART</option>
+					  <option value="speedpost">Speedpost</option>
+					  <option value="dtdc">DTDC</option>
+					  <option value="india_post">India Post</option>
 				  
 				  Track Number: <input type="text" name="submit" class="btn-default mar15 form-control" id="num"><br>
 				  
